@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>Coffeeshop</title> 
+</head>
+<body>
+    <form>
+        <label>
+            Välj kaffesort
+        <select id="coffeeList">
+        </select>
+        </label>
+        <label>
+            Antal
+            <input type="text" type="number" min="1" value="1">
+        </label>
+        <button type="button">Köp</button>
+    </form>
+    <header>
+        <p>Du har handlat för <span id="purchased-total">0 kr</span></p>
+        <p>Medlemsskapsstatus <span id="membership-status">Brons</span></p>
+    </header>
+    <main>
+        <h3>Du har inga transaktioner</h3>
+        <ul></ul>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
